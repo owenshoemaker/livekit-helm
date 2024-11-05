@@ -13,4 +13,18 @@ entries:
     urls:
     - https://github.com/owenshoemaker/livekit-helm/releases/download/egress-1.8.6/egress-1.8.6.tgz
     version: 1.8.6
-generated: "2024-11-05T11:05:29.02955-08:00"
+  livekit-server:
+  - apiVersion: v2
+    appVersion: v1.7.2
+    created: "2024-11-05T11:13:35.425566-08:00"
+    description: Real-time infrastructure for developers. LiveKit is the open source
+      stack for streaming audio, video, and data.
+    digest: ba98758ee528fbf03b13f2fd73ebd3fc2e04a93f6929ea0d32ddc60665ff4c01
+    name: livekit-server
+    sources:
+    - https://github.com/livekit/livekit
+    type: application
+    urls:
+    - https://github.com/owenshoemaker/livekit-helm/releases/download/livekit-server-1.7.2/livekit-server-1.7.2.tgz
+    version: 1.7.2
+generated: "2024-11-05T11:13:35.425589-08:00"

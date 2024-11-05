@@ -1,0 +1,16 @@
+apiVersion: v1
+entries:
+  egress:
+  - apiVersion: v2
+    appVersion: v1.8.6
+    created: "2024-11-05T11:05:29.02953-08:00"
+    description: Egress is used by LiveKit to stream and record rooms.
+    digest: d7f533d74f00e892426fb47f71541524f0321988198032d875c8138672a5caa4
+    name: egress
+    sources:
+    - https://github.com/livekit/egress
+    type: application
+    urls:
+    - https://github.com/owenshoemaker/livekit-helm/releases/download/egress-1.8.6/egress-1.8.6.tgz
+    version: 1.8.6
+generated: "2024-11-05T11:05:29.02955-08:00"
